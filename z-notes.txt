@@ -1,0 +1,127 @@
+______________________________________________POLICES DE CARACTERES__
+>>> GOOGLE FONTS
+@import url('https://fonts.googleapis.com/css2?
+family=Poppins:wght@300;400;500;600;700&display=swap');
+	font-family: 'Poppins', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?
+family=Ubuntu:wght@300;400;500;700&display=swap');
+	font-family: 'Ubuntu', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?
+family=Fira+Mono:wght@400;500;700&display=swap');
+	font-family: 'Fira Mono', monospace;
+
+@import url('https://fonts.googleapis.com/css2?
+family=Allerta+Stencil&display=swap');
+	font-family: 'Allerta Stencil', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+	font-family: 'Rubik', sans-serif;
+
+_____________________________________________________________ICONES__
+>>> FONT AWSOME
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+>>> BOXICONS ❤❤❤
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+>>> WEATHER ICONS ❓❔
+https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css
+
+__________________________________________________________API MÉTÉO__
+>>> OPENWEATHER
+const apiKey = "d3d93ef5efe8c9f68855779703a4d14e";
+const apiCall = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&lang=fr&appid=${apiKey}`
+
+_____________________________________________________________PHOTOS__
+>>> UNSPLASH
+background: url('https://source.unsplash.com/random/?nature,4k');
+
+_________________________________________________________CONFIG CSS__
+>>> LIGHT & DARK MODE - CSS
+:root {
+   --color-gradient: linear-gradient(90deg, #eee, #f9f9f9, #eee);
+   --color-background: #d9d9d9;
+   --color-car-background: #fff;
+   --color-header: #000;
+   --color-info: #363949;
+   --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.dark-mode {
+   --color-gradient: linear-gradient(to right, #656871 0%, #888b94 20%, #656871 40%, #656871 100%);
+   --color-background: #414247;
+   --color-car-background: #252525;
+   --color-header: #ccc;
+   --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+>>> ROOT CSS
+:root {
+   --dark1: #262f4c;
+   --dark2: #252831;
+   --medium: #9F496E;
+   --medium2: #647295;
+   --light1: #F2EBE5;
+   --light2: #DED369;
+}
+
+________________________________________________THEMES COULEURS CSS__
+>>> CSS COLOR THEME
+
+BLEU ÉTOILÉ {
+	background: linear-gradient(#F2EBE5, #647295, #9F496E, #2B262D);
+}
+ASSIETTE COLORÉE {
+	background: linear-gradient(#F8EFEA, #DED369, #E0475B, #192F01);
+}
+
+SÉRÉNITÉ {
+	background: linear-gradient(#FBE0C3, #FFBB98, #7D8E95, #344648);
+}
+
+AGRUME {
+	background: linear-gradient(#FAE6B1, #FFA101, #B3DEE5, #31525B);
+}
+
+DYNAMIQUE {
+	background: linear-gradient(#FFFFFE, #F21137, #680202, #030303);
+}
+
+AMAZONE {
+	background: linear-gradient(#FFF9E9, #5A8100, #FFB400, #FF6C02);
+}
+
+VERT {
+	background: linear-gradient(#E3DCD2, #CC8B65, #013328, #100C0D);
+}
+
+ROUGE {
+	background: linear-gradient(#F8D4BA, #D69F3A, #C34F5A, #541412)
+}
+
+___________________________________________<!-- 👀 BOOTSTRAP 👀 -->__
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
+_______________________________________DATE DU DÉBUT EN JAVASCRIPT__
+1 janvier 1970
+
+
+
+
+
+_____________________________________________________________________
+
+
+
+
+
+_____________________________________________________________________
+
+
+
+
+
+_____________________________________________________________________
